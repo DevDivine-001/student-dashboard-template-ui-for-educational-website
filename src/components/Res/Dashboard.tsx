@@ -15,7 +15,7 @@ const Dashboard = () => {
             <span className="text-slate-100">Estate </span>
           </h1>
         </Link>
-        <div className="flex flex-col gap-7 h-[60vh] cursor-pointer">
+        <h1 className="font-bold text-sm sm:text-sm flex flex-wrap flex-col h-[60vh] gap-7 cursor-pointer">
           <span className="text-slate-100 hover:border-r-2 border-slate-100 w-[120%] flex items-center gap-3">
             <RxDashboard />
             Dashboard
@@ -33,7 +33,7 @@ const Dashboard = () => {
           <span className="text-slate-100 hover:border-r-2 border-slate-100 w-[120%] flex items-center gap-3">
             <IoChatboxEllipses /> Help Center
           </span>
-        </div>
+        </h1>
         <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
           <span className="text-slate-100">Dark Mode</span>
         </h1>
