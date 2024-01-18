@@ -1,5 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import { FaBell } from "react-icons/fa6";
+import { VscHeartFilled } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
         </form>
 
         <div className="flex justify-center items-center p-2 gap-7">
-          <FaSearch className="text-slate-600" />
+          <VscHeartFilled size={20} className="text-sky-500 cursor-pointer" />
           <FaBell size={20} className="text-sky-500 cursor-pointer" />
           <div className="flex items-center gap-3">
             <Link to="/profile">
