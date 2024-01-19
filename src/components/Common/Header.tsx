@@ -40,11 +40,11 @@ const Header = () => {
               <small>Divine Uwandu</small>
               <small>Divine Uwandu34@Gmail.com</small>
             </div>
-            {/* <RiArrowDropDownLine
+            <RiArrowDropDownLine
               size={20}
               onClick={onshow}
               className="text-red-500 cursor-pointer max-sm:flex max-2xl:hidden max-lg:flex"
-            /> */}
+            />
           </div>
         </div>
       </div>
