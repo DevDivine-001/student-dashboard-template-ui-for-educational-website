@@ -1,3 +1,4 @@
+import ima from "../../assets/pexels-max-fischer-5212700.jpg";
 const Piechat = () => {
   return (
     <section className="">
@@ -7,7 +8,7 @@ const Piechat = () => {
           <article className="text-[#000] font-bold">Daily Article</article>
           <div className="flex justify-center items-center bg-[#fff] h-[200px] flex-col rounded-md gap-1">
             <img
-              src=""
+              src={ima}
               alt=""
               className="w-[92%] h-[140px] bg-[red] flex object-cover rounded-md justify-center items-center"
             />
