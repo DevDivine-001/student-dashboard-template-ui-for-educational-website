@@ -5,7 +5,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { VscHeartFilled } from "react-icons/vsc";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-// import { changeState } from "../../Global/globalstate";
+import { changeState } from "../../Global/globalstate";
 // import { changeState } from "../../Global/globalstate";
 
 const Header = () => {
