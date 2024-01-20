@@ -3,13 +3,22 @@ import { FaSearch } from "react-icons/fa";
 import { FaBell } from "react-icons/fa6";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { VscHeartFilled } from "react-icons/vsc";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { changeState } from "../../Global/globalstate";
+// import { changeState } from "../../Global/globalstate";
 
 const Header = () => {
   const [show, Setshow] = useState<boolean>(false);
-  const onshow = () => {
+  const dropshow = () => {
     Setshow(!show);
   };
+  const dispatch = useDispatch();
+  const toggle = useSelector((state: any) => state.toggleState);
+  const onChangeState = () => {
+    dispatch(changeState(!toggle));
+  };
+  // const [wide, setWide] = useState(false);
   return (
     <header className="sticky top-0 z-50 max-sm:w-svw bg-[#fff]">
       <div className="flex justify-between items-center p-3">
@@ -25,8 +34,22 @@ const Header = () => {
           />
         </form>
 
-        <div className="flex justify-center items-center gap-3">
-          <VscHeartFilled size={20} className="text-sky-500 cursor-pointer" />
+        <div className="flex justify-center items-center gap-3 bg-[]">
+          <div className="flex">
+            {!toggle ? (
+              <VscHeartFilled
+                size={20}
+                className="text-sky-500 cursor-pointer"
+                onClick={onChangeState}
+              />
+            ) : (
+              <VscHeartFilled
+                size={20}
+                className="text-[#ff0000] cursor-pointer"
+                onClick={onChangeState}
+              />
+            )}
+          </div>
           <FaBell size={20} className="text-sky-500 cursor-pointer" />
           <div className="flex items-center gap-3">
             <Link to="/profile">
@@ -42,7 +65,7 @@ const Header = () => {
             </div>
             <RiArrowDropDownLine
               size={20}
-              onClick={onshow}
+              onClick={dropshow}
               className="text-red-500 cursor-pointer max-sm:flex max-2xl:hidden max-lg:flex"
             />
           </div>
