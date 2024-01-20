@@ -5,6 +5,7 @@ import { HiDocumentText } from "react-icons/hi";
 import { IoChatboxEllipses } from "react-icons/io5";
 import { FaBookAtlas } from "react-icons/fa6";
 import { useState } from "react";
+import { GiSpellBook } from "react-icons/gi";
 // VscLayers
 
 const Dashboard = () => {
@@ -17,10 +18,9 @@ const Dashboard = () => {
     >
       <div className="flex justify-between items-center max-w-6xl mx-auto p-4  flex-col h-[95vh]">
         <Link to="/">
-          <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
-            <span className="text-slate-100">Divine</span>
-            <span className="text-slate-100">Estate </span>
-          </h1>
+          <div className="text-sm sm:text-xl flex justify-center items-center ] bg-[]">
+            <GiSpellBook size={55} className="text-[#ffff]" />
+          </div>
         </Link>
         <h1 className="font-bold text-sm sm:text-sm flex flex-wrap flex-col h-[63vh] gap-7 cursor-pointer">
           <span
@@ -47,7 +47,7 @@ const Dashboard = () => {
             </span>
           </Link>
           <Link to="/helpcenter">
-            <span className="text-slate-100 hover:border-2 border-slate-100 w-[120%] flex items-center gap-3">
+            <span className="text-slate-100 hover:border-r-2 border-slate-100 w-[120%] flex items-center gap-3">
               <IoChatboxEllipses /> {!wide && "Help Center"}
             </span>
           </Link>
