@@ -2,7 +2,7 @@ const View = () => {
   return (
     <section className="">
       <div className="flex justify-between p-3 w-[100%] bg-[] flex-wrap max-sm:flex-row gap-3">
-        {/* <section className=" max-md:w-[100%] max-lg:w-full h-auto w-[75%] bg-[#000] flex justify-between flex-col">
+        <section className=" max-md:w-[100%] max-lg:w-full h-auto w-[75%] bg-[#000] flex justify-between flex-col">
           <span className=" font-bold">Overview</span>
 
           <div className=" max-md:w-[100%] max-lg:w-full h-auto flex justify-between max-sm:flex-col gap-4">
@@ -43,7 +43,7 @@ const View = () => {
           </div>
           <span className="font-bold">Recommended</span>
           <div></div>
-        </section> */}
+        </section>
 
         <section className="max-md:w-full max-lg:w-full h-auto w-[22%] flex gap-2 flex-col justify-between max-sm:gap-4">
           <article className=" font-bold">Contiune studying</article>
