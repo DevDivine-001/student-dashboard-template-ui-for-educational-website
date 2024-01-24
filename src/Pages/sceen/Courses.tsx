@@ -1,5 +1,5 @@
 const Courses = () => {
-  return <div>Divine</div>;
+  return <div className="bg-slate-100">Courses</div>;
 };
 
 export default Courses;

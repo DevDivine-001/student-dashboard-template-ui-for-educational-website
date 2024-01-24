@@ -20,7 +20,7 @@ const Header = () => {
   };
   // const [wide, setWide] = useState(false);
   return (
-    <header className="sticky top-0 z-50 max-sm:w-svw bg-[#fff]">
+    <header className="sticky top-0 z-50 max-sm:w-svw bg-slate-100">
       <div className="flex justify-between items-center p-3">
         <form
           action=""
@@ -54,9 +54,9 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <Link to="/profile">
               <img
-                src=""
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
                 alt=""
-                className="w-[40px] h-[40px] rounded-[50%] bg-sky-500 border-sky-500 border"
+                className="w-[40px] h-[40px] rounded-[50%]"
               />
             </Link>
             <div className="flex flex-col justify-center max-sm:hidden max-md:hidden max-lg:hidden">

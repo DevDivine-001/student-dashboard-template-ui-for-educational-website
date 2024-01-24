@@ -1,5 +1,5 @@
 const Profile = () => {
-  return <div>Profile</div>;
+  return <div className="bg-slate-100 w-[100%]">Profile</div>;
 };
 
 export default Profile;
