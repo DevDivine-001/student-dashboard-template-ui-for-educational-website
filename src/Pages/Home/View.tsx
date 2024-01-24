@@ -9,7 +9,7 @@ const View = () => {
         <div className="max-sm:w-full max-lg:w-full h-auto flex justify-between max-sm:flex-col gap-4">
           <div className="flex gap-5 items-center bg-[#ffff] p-2 rounded-md max-sm:w-full">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
@@ -20,7 +20,7 @@ const View = () => {
           </div>
           <div className="flex gap-5 items-center bg-[#ffff] p-2 rounded-md ">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1181278/pexels-photo-1181278.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
@@ -32,7 +32,7 @@ const View = () => {
 
           <div className="flex gap-5 items-center bg-[#ffff] p-2 rounded-md ">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1181279/pexels-photo-1181279.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
@@ -47,7 +47,7 @@ const View = () => {
         <div className=" max-md:w-[100%] max-lg:w-full h-auto flex justify-between max-sm:flex-col gap-4">
           <div className="flex gap-5 bg-[#ffff] p-2 rounded-md flex-col w-[26%] max-sm:w-full">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[100%] h-[103px] flex object-cover rounded-md justify-center items-center cursor-pointer"
             />
@@ -63,7 +63,7 @@ const View = () => {
           </div>
           <div className="flex gap-5 bg-[#ffff] p-2 rounded-md flex-col w-[26%] max-sm:w-full">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[100%] h-[103px] flex object-cover rounded-md justify-center items-center cursor-pointer"
             />
@@ -79,7 +79,7 @@ const View = () => {
           </div>
           <div className="flex gap-5 bg-[#ffff] p-2 rounded-md flex-col w-[26%] max-sm:w-full">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1181243/pexels-photo-1181243.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[100%] h-[103px] flex object-cover rounded-md justify-center items-center cursor-pointer"
             />
@@ -101,12 +101,12 @@ const View = () => {
         <div className="bg-[#ffff] p-2 rounded-md max-sm:w-full">
           <div className="flex gap-5 items-center">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/5137817/pexels-photo-5137817.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
             <small className="flex flex-col">
-              <span className="font-bold">Neaxt.</span>
+              <span className="font-bold">Next.</span>
               <span className="text-slate-300">25 lessons 45 hours</span>
             </small>
           </div>
@@ -114,7 +114,7 @@ const View = () => {
         <div className="bg-[#ffff] p-2 rounded-md">
           <div className="flex gap-5 items-center">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/3567695/pexels-photo-3567695.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
@@ -127,7 +127,7 @@ const View = () => {
         <div className="bg-[#ffff] p-2 rounded-md">
           <div className="flex gap-5 items-center">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
@@ -140,7 +140,7 @@ const View = () => {
         <div className="bg-[#ffff] p-2 rounded-md">
           <div className="flex gap-5 items-center">
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/626986/pexels-photo-626986.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-[26%] h-[45px] flex object-cover rounded-md justify-center items-center"
             />
